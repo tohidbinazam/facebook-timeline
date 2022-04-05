@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- post area -->
+    <section class="post-area mt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5">
+            <div class="card shadow-sm">
+              <div class="card-body post-element d-flex justify-content-between">
+                <img src="http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg" alt="" />
+                <button class="post-btn" data-bs-target="#create-post-modal" data-bs-toggle="modal">What's on your mind, Tohid Bin?</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- post shoe -->
+    <section class="post-show">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 post-timeline-lode">
+            <!-- <div class="card shadow-sm my-3">
+              <div class="card-body">
+                <div class="post-header d-flex align-items-center justify-content-between">
+                  <div class="post-header-left d-flex align-items-center">
+                    <img class="me-2" src="http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg" alt="" />
+                    <h5>Tohid Bin Azam</h3>
+                  </div>
+                  <div class="post-header-right">
+                    <button>...</button>
+                  </div>
+                </div>
+                <div class="post-content mt-2">
+                  <p>
+                    যানি আমার এয়ার ফ্লো না হলেও ২০ থেকে ৩০ পার্সেন্ট ড্রপ করবে। কিন্তু কিছু করার নাই। বাসার সামনে দুইটা বিল্ডিং এর কনস্ট্রাকশন এর কাজ চলে সকালে ঘুম থেকে উঠে দেখি সব সাদা হয়ে থাকে বাসার ফার্নিচার গুলা।তাই daraz থেকে নিলাম
+                  </p>
+                  <img src="https://jooinn.com/images/see-4.jpg" alt="" />
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- create post -->
+    <div class="modal fade" id="create-post-modal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center text-danger">
+            <h3>Create post</h3>
+          </div>
+          <div class="modal-body">
+            <div class="msg">
+              <!-- <p class="alert alert-danger d-flex justify-content-between">Hello <button class="btn-close" data-bs-dismiss="alert"></button></p> -->
+            </div>
+            <form id="create-post-form" mathod="POST">
+              <input name="au_name" class="form-control my-3" type="text" placeholder="Type your name" />
+              <input name="profile_photo" class="form-control my-3" type="url" placeholder="Give your profile picture" />
+              <textarea class="form-control my-3" name="pt_content" id="" rows="7" placeholder="What's on your mind, Tohid Bin?"></textarea>
+              <input name="pt_image" class="form-control my-3" type="url" placeholder="Give your content picture" />
+              <input type="submit" class="btn btn-primary w-100" value="Post" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
