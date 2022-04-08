@@ -41,41 +41,6 @@
       "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
       "content": "Hello, How are you?",
       "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Tohid",
-      "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "content": "Hello, How are you?",
-      "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg"
-    },
-    {
-      "name": "Tohid",
-      "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "content": "Hello",
-      "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "id": 8
-    },
-    {
-      "id": 9,
-      "name": "Tohid",
-      "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "content": "Hello",
-      "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Azam",
-      "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "content": "Hello",
-      "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Sazid",
-      "pro_photo": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg",
-      "content": "Hello How",
-      "image": "http://www.team.gsamdani.com/wp-content/uploads/2016/05/tm1.jpg"
     }
   ]
 }
